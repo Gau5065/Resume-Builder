@@ -1,0 +1,818 @@
+.rOneMainbox1{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 500px;
+    position: relative;
+}
+.ToolBox1{
+    /* border: 2px solid red; */
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    box-sizing: border-box;
+    background-color: #e9ecef;
+}
+.FileDownload{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-color: #606c38;
+    color: white;
+    margin: 30px auto;
+}
+.HeightInput1{
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.HeightInput1:focus{
+    outline: none;
+    border: 2px solid green;
+}
+.WidthInput1{
+    height: 30px;
+    width: 50px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.WidthInput1:focus{
+    outline: none;
+    border: 2px solid green;
+}
+.TextColor1{
+    width: 80%;
+    height: 40px;
+}
+.BgColor1{
+    width: 80%;
+    height: 40px;
+}
+.FileDownload:hover{
+    background-color: #283618;
+}
+.FileDownloadIcon1{
+    font-size: 20px;
+}
+.rOneM1B1{
+    /* border: 2px solid red; */
+    height: 276mm;
+    width: 189mm;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 2px solid black;
+    outline-offset: 30px;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+}
+.rOneM1B1Box1{
+    border: 2px solid #8d4b55;
+    width: 100%;
+    height: 200px;
+    background-color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box1:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box11{
+    border: 2px solid #8d4b55;
+    width: 380px;
+    height: 80px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    cursor: pointer;
+    padding: 0;
+}
+.rOneM1B1Box11:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box11 p{
+    margin: 0;
+}
+.editDivInput1{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: none;
+}
+.editDivInput1:focus{
+    outline: none;
+}
+.rOneM1B1Box12{
+    border: 2px solid #8d4b55;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    position: absolute;
+    bottom: 40px;
+    right: 230px;
+}
+.rOneM1B1Box12:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box12 p{
+    margin: 0;
+}
+.rOneM1B1Box13{
+    /* border: 2px solid red; */
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    position: relative;
+}
+.rOneM1B1Box13Img1{
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    z-index: 2;
+}
+.rOneM1B1Box13Icon1{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+.rOneM1B1Box13Icon1:hover{
+    display: block;
+}
+.rOneM1B1Box13Img1:hover + .rOneM1B1Box13Icon1 {
+    display: block;
+}
+.rOneM1B1Box2{
+    /* border: 2px solid red; */
+    height: 225px;
+    width: 270px;
+    margin-top: 100px;
+}
+.rOneM1B1Box21{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box21:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box21::after{
+    content: " ";
+    height: 3px;
+    width: 150px;
+    background-color: #8d4b55;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.rOneM1B1Box22{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+.rOneM1B1Box22:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box22Icon1{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.rOneM1B1Box23{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+.rOneM1B1Box23:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box23Icon1{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.rOneM1B1Box24{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+.rOneM1B1Box24:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box24Icon1{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.rOneM1B1Box25{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding-left: 25px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+.rOneM1B1Box25:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box25Icon1{
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+.rOneM1B1Box3{
+    /* border: 2px solid red; */
+    height: 250px;
+    width: 420px;
+    position: absolute;
+    top: 220px;
+    right: 0;
+}
+.rOneM1B1Box31{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box31:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box31::after{
+    content: " ";
+    height: 3px;
+    width: 150px;
+    background-color: #8d4b55;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.rOneM1B1Box32{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 200px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    white-space: pre-line;
+}
+.rOneM1B1Box32:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box4{
+    /* border: 2px solid red; */
+    /* border: 2px solid white; */
+    width: 270px;
+    height: 170px;
+    margin-top: 10px;
+}
+.rOneM1B1Box41{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box41:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box41::after{
+    content: " ";
+    height: 3px;
+    width: 150px;
+    background-color: #8d4b55;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.rOneM1B1Box42{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box42:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box42Icon1{
+    font-size: 15px;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+}
+.rOneM1B1Box43{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box43:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box43Icon1{
+    font-size: 15px;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+}
+.rOneM1B1Box44{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box44:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box44Icon1{
+    font-size: 15px;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+}
+.rOneM1B1Box45{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box45:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box45Icon1{
+    font-size: 15px;
+    position: absolute;
+    top: 8px;
+    left: 2px;
+}
+.rOneM1B1Box5{
+    /* border: 2px solid red; */
+    width: 270px;
+    height: 140px;
+    margin-top: 10px;
+}
+.rOneM1B1Box51{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box51:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box51::after{
+    content: " ";
+    height: 3px;
+    width: 150px;
+    background-color: #8d4b55;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.rOneM1B1Box52{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.rOneM1B1Box52:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box53{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.rOneM1B1Box53:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box54{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    height: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.rOneM1B1Box54:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box6{
+    /* border: 2px solid red; */
+    width: 270px;
+    height: 160px;
+    margin-top: 10px;
+}
+.rOneM1B1Box61{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box61:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box61::after{
+    content: " ";
+    height: 3px;
+    width: 230px;
+    background-color: #8d4b55;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.rOneM1B1Box62{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.rOneM1B1Box62:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box63{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.rOneM1B1Box63:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box7{
+    /* border: 2px solid red; */
+    width: 420px;
+    height: 370px;
+    position: absolute;
+    top: 500px;
+    right: 0;
+}
+.rOneM1B1Box71{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box71:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box71::after{
+    content: " ";
+    height: 3px;
+    width: 150px;
+    background-color: #8d4b55;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.rOneM1B1Box72{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.rOneM1B1Box72:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box73{
+    border: 2px solid red;
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 17px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.rOneM1B1Box73:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box74{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.rOneM1B1Box74:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box75{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.rOneM1B1Box75:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box76{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.rOneM1B1Box76:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box77{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.rOneM1B1Box77:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box78{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.rOneM1B1Box78:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box8{
+    /* border: 2px solid red; */
+    width: 420px;
+    height: 155px;
+    position: absolute;
+    top: 880px;
+    right: 0;
+}
+.rOneM1B1Box81{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    box-sizing: border-box;
+    color: #8d4b55;
+    position: relative;
+    cursor: pointer;
+}
+.rOneM1B1Box81:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box81::after{
+    content: " ";
+    height: 3px;
+    width: 230px;
+    background-color: #8d4b55;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+.rOneM1B1Box82{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.rOneM1B1Box82:hover{
+    border: 2px solid green;
+}
+.rOneM1B1Box83{
+    /* border: 2px solid red; */
+    border: 2px solid white;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.rOneM1B1Box83:hover{
+    border: 2px solid green;
+}
